@@ -57,5 +57,6 @@ def submit():
 
         return render_template('index.html', message=customer_already_submited)
         
+
 if __name__ == '__main__':
     app.run()
